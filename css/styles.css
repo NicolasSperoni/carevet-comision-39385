@@ -1,0 +1,447 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #4834cb;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+}
+header div{
+    padding-right: 90px;
+}
+
+main{
+    background-color: #30A8CF;
+}
+
+.footercontent{
+    background-color: #4834cb;
+    width: auto;
+    height: 120px;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    justify-content: space-between;
+}
+.footerubicacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.footerredes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.footerimg{
+    display: flex;
+    padding-left: 40px;
+}
+
+
+.footerimg a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px ;
+}
+
+body{
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+}
+
+/*------------------------------------- INICIO ------------------------------------------------------------*/
+
+.headerindex{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerindex ul{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+header nav ul{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.headerindex nav li a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white
+}
+
+
+
+
+
+
+.mainindex{
+    background-image: url(../assets/img/gatoyperro3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 645px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainindex .logoindex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contactoindex{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactoindex .llamar{
+    width: 150px;
+    height: 35px;
+    background-color: #30A8CF;
+    border-radius: 20px;
+}
+
+.contactoindex .contacto{
+    width: 180px;
+    height: 35px;
+    background-color: #30A8CF;
+    border-radius: 20px;
+    display: flex;
+}
+
+.contactoindex .llamar a{
+    text-decoration: none;
+}
+
+.contactoindex .contacto a{
+    text-decoration: none;
+}
+
+/*------------------------------------- NOSOTROS ------------------------------------------------------------*/
+
+
+.mainnosotros h2{
+    font-size: 70px;
+}
+.mainnosotros h1{
+    font-size: 70px;
+}
+
+.mainnosotros .titulo{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.mainnosotros .equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.veterinarios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.bañadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#empleado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#empleado img{
+    border-radius: 30px;
+}
+#empleado p{
+    text-align: center;
+}
+
+.mainnosotros .ubicaciontitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px ;
+}
+
+.mainnosotros .ubicaciontitulo .ubicacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainnosotros .ubicaciontitulo .ubicacion h4{
+    padding: 40px;
+    font-size: 40px;
+}
+/*------------------------------------- SERVICIOS ------------------------------------------------------------*/
+
+.veterinaria h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+}
+
+.veterinariaimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#vetimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+}
+
+#vetimg img{
+    border-radius: 20px;
+}
+
+#vetimg p{
+    text-align: center;
+}
+
+.peluqueria h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+}
+
+.peluqueriaimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#peluimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+}
+
+#peluimg img{
+    border-radius: 20px;
+}
+
+#peluimg p{
+    text-align: center;
+}
+
+
+.guarderia h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+}
+
+.guarderiaimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#guardimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+#guardimg img{
+    border-radius: 100px;
+}
+
+#guardimg p{
+    text-align: center;
+}
+/*------------------------------------- EDUCACIÓN ------------------------------------------------------------*/
+.maineducacion section{
+    display: flex;
+    flex-direction: column;
+}
+
+.maineducacion section .necesidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.necoracion{
+    padding-left: 90px;
+}
+
+.necoracion p{
+    padding-left: 20px;
+}
+
+.maineducacion section .arenero{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.areoracion{
+    padding-left: 75px;
+}
+
+.areoracion p{
+    padding-left: 20px;
+}
+
+
+.trucos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.trucos iframe{
+    padding-right: 10px;
+}
+
+.trucosoracion{
+    padding-left: 40px;
+}
+
+.trucosoracion p{
+    padding-left: 20px;
+}
+
+.convivencia{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.convoracion p{
+    padding-left: 20px;
+}
+/*------------------------------------- ADOPTÁ ------------------------------------------------------------*/
+
+
+.adopta h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 70px;
+}
+
+.adopta1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#adopcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#adopcion p{
+    text-align: center;
+}
+
+.adopta2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.adopta3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+#adopcion img{
+    padding: 20px;
+    border-radius: 50%;
+}
+
